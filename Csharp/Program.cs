@@ -6,6 +6,8 @@ namespace Csharp
     {
         static void Main(string[] args)
         {
+
+            //TODO: lag plan for prosjektet.
             Console.WriteLine("Hello World!");
         }
     }
