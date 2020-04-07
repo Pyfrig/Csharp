@@ -1,9 +1,6 @@
 ﻿using System;
-using System.IO;
-using System.Collections.Generic;
-using System.Linq;
 
-namespace Csharp
+namespace ConsoleUI
 {
     class Program
     {
@@ -30,7 +27,7 @@ namespace Csharp
             }
 
             foreach (var Person in people)
-            { 
+            {
                 Console.WriteLine($"{Person.FirstName}{Person.LastName}: {Person.Url} ");
             }
 
@@ -47,8 +44,6 @@ namespace Csharp
 
             File.WriteAllLines(filePath, output);
             Console.WriteLine("All entries written");
-
         }
-
     }
 }
